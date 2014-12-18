@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101E15CA0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13AF22680000000000000000 /* UIKit.framework */; };
+		31B3B8FD0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3544C59B0000000000000000 /* MapKit.framework */; };
+		6E7219500000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A782E3300000000000000000 /* Foundation.framework */; };
+		3A5203DE0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE3107C0000000000000000 /* CoreGraphics.framework */; };
+		375EE3170000000000000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEFEFB50000000000000000 /* Images.xcassets */; };
+		C924BAF00000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1023584D0000000000000000 /* Default-568h@2x.png */; };
+		3ABD0C990000000000000000 /* chevron_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4E19370000000000000000 /* chevron_left@2x.png */; };
+		28E7CD830000000000000000 /* ic_launcher@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C78DA210000000000000000 /* ic_launcher@2x.png */; };
+		53D4F5700000000000000000 /* icon_critics_fresh@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CE5BF500000000000000000 /* icon_critics_fresh@2x.jpg */; };
+		2A93F6EA0000000000000000 /* icon_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2503880000000000000000 /* icon_error@2x.png */; };
+		18BEB7D40000000000000000 /* icon_fresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C4FC4720000000000000000 /* icon_fresh@2x.png */; };
+		6E978BE00000000000000000 /* icon_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A855C00000000000000000 /* icon_loading@2x.png */; };
+		351439A80000000000000000 /* icon_pop_corn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A546460000000000000000 /* icon_pop_corn@2x.png */; };
+		3F947C660000000000000000 /* icon_rotten@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325890400000000000000000 /* icon_rotten@2x.png */; };
+		2DBF3D500000000000000000 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 315049EE0000000000000000 /* app_icon@2x.png */; };
+		1BE9FE3A0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F7B0AD80000000000000000 /* Info.plist */; };
+		29FB4D960000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D8C5A340000000000000000 /* Entitlements.plist */; };
+		380C9CF20000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9DA9900000000000000000 /* MainStoryboard.storyboard */; };
+		26375DDC0000000000000000 /* DetailsContaint.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C86A7A0000000000000000 /* DetailsContaint.xib */; };
+		43BF47100000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 7CD010F00000000000000000 /* AppDelegate.h */; };
+		193C79ED0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD868B0000000000000000 /* AppDelegate.m */; };
+		3200EF230000000000000000 /* MasterViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3591FBC10000000000000000 /* MasterViewController.h */; };
+		73457BB00000000000000000 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5645900000000000000000 /* MasterViewController.m */; };
+		271AE62D0000000000000000 /* DetailViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2AABF2CB0000000000000000 /* DetailViewController.h */; };
+		319B28EB0000000000000000 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352C35890000000000000000 /* DetailViewController.m */; };
+		1512C3FB0000000000000000 /* MovieTableCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 18A3D0990000000000000000 /* MovieTableCell.h */; };
+		2DD739310000000000000000 /* MovieTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 316845CF0000000000000000 /* MovieTableCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C9B37A00000000000000000 /* FloPotatoes.IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "FloPotatoes.IOS.app"; path = "FloPotatoes.IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AF22680000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		3544C59B0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		A782E3300000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3DE3107C0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3AEFEFB50000000000000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images.xcassets"; path = "Images.xcassets"; sourceTree = "<group>"; };
+		1023584D0000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3E4E19370000000000000000 /* chevron_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chevron_left@2x.png"; path = "chevron_left@2x.png"; sourceTree = "<group>"; };
+		2C78DA210000000000000000 /* ic_launcher@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher@2x.png"; path = "ic_launcher@2x.png"; sourceTree = "<group>"; };
+		8CE5BF500000000000000000 /* icon_critics_fresh@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "icon_critics_fresh@2x.jpg"; path = "icon_critics_fresh@2x.jpg"; sourceTree = "<group>"; };
+		2E2503880000000000000000 /* icon_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_error@2x.png"; path = "icon_error@2x.png"; sourceTree = "<group>"; };
+		1C4FC4720000000000000000 /* icon_fresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_fresh@2x.png"; path = "icon_fresh@2x.png"; sourceTree = "<group>"; };
+		A7A855C00000000000000000 /* icon_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_loading@2x.png"; path = "icon_loading@2x.png"; sourceTree = "<group>"; };
+		38A546460000000000000000 /* icon_pop_corn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_pop_corn@2x.png"; path = "icon_pop_corn@2x.png"; sourceTree = "<group>"; };
+		325890400000000000000000 /* icon_rotten@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_rotten@2x.png"; path = "icon_rotten@2x.png"; sourceTree = "<group>"; };
+		315049EE0000000000000000 /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app_icon@2x.png"; path = "app_icon@2x.png"; sourceTree = "<group>"; };
+		1F7B0AD80000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		2D8C5A340000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		3B9DA9900000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		29C86A7A0000000000000000 /* DetailsContaint.xib */ = {isa = PBXFileReference; name = "DetailsContaint.xib"; path = "DetailsContaint.xib"; sourceTree = "<group>"; };
+		7CD010F00000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		1CCD868B0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		3591FBC10000000000000000 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MasterViewController.h"; path = "MasterViewController.h"; sourceTree = "<group>"; };
+		AC5645900000000000000000 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MasterViewController.m"; path = "MasterViewController.m"; sourceTree = "<group>"; };
+		2AABF2CB0000000000000000 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DetailViewController.h"; path = "DetailViewController.h"; sourceTree = "<group>"; };
+		352C35890000000000000000 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DetailViewController.m"; path = "DetailViewController.m"; sourceTree = "<group>"; };
+		18A3D0990000000000000000 /* MovieTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MovieTableCell.h"; path = "MovieTableCell.h"; sourceTree = "<group>"; };
+		316845CF0000000000000000 /* MovieTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MovieTableCell.m"; path = "MovieTableCell.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2094F5D00000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101E15CA0000000000000000 /* UIKit.framework in Frameworks */,
+				31B3B8FD0000000000000000 /* MapKit.framework in Frameworks */,
+				6E7219500000000000000000 /* Foundation.framework in Frameworks */,
+				3A5203DE0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE675E000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2B481BAA0000000000000000 /* FloPotatoes.IOS */,
+				EF299D600000000000000000 /* Frameworks */,
+				35FB41840000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35FB41840000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B37A00000000000000000 /* FloPotatoes.IOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		EF299D600000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13AF22680000000000000000 /* UIKit.framework */,
+				3544C59B0000000000000000 /* MapKit.framework */,
+				A782E3300000000000000000 /* Foundation.framework */,
+				3DE3107C0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		2B481BAA0000000000000000 /* FloPotatoes.IOS */ = {
+			isa = PBXGroup;
+			children = (
+				315049EE0000000000000000 /* app_icon@2x.png */,
+				7CD010F00000000000000000 /* AppDelegate.h */,
+				3E4E19370000000000000000 /* chevron_left@2x.png */,
+				1023584D0000000000000000 /* Default-568h@2x.png */,
+				29C86A7A0000000000000000 /* DetailsContaint.xib */,
+				2AABF2CB0000000000000000 /* DetailViewController.h */,
+				2D8C5A340000000000000000 /* Entitlements.plist */,
+				2C78DA210000000000000000 /* ic_launcher@2x.png */,
+				8CE5BF500000000000000000 /* icon_critics_fresh@2x.jpg */,
+				2E2503880000000000000000 /* icon_error@2x.png */,
+				1C4FC4720000000000000000 /* icon_fresh@2x.png */,
+				A7A855C00000000000000000 /* icon_loading@2x.png */,
+				38A546460000000000000000 /* icon_pop_corn@2x.png */,
+				325890400000000000000000 /* icon_rotten@2x.png */,
+				3AEFEFB50000000000000000 /* Images.xcassets */,
+				1F7B0AD80000000000000000 /* Info.plist */,
+				3B9DA9900000000000000000 /* MainStoryboard.storyboard */,
+				3591FBC10000000000000000 /* MasterViewController.h */,
+				18A3D0990000000000000000 /* MovieTableCell.h */,
+				3B37E3580000000000000000 /* Supporting Files */,
+			);
+			name = "FloPotatoes.IOS";
+			sourceTree = "<group>";
+		};
+		3B37E3580000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CCD868B0000000000000000 /* AppDelegate.m */,
+				352C35890000000000000000 /* DetailViewController.m */,
+				AC5645900000000000000000 /* MasterViewController.m */,
+				316845CF0000000000000000 /* MovieTableCell.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A464CA0000000000000000 /* FloPotatoes.IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E811C60000000000000000 /* Build configuration list for PBXNativeTarget "FloPotatoes.IOS" */;
+			buildPhases = (
+				B2EAA1C00000000000000000 /* Sources */,
+				2094F5D00000000000000000 /* Frameworks */,
+				341949A70000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FloPotatoes.IOS";
+			productName = "FloPotatoes.IOS";
+			productReference = 1C9B37A00000000000000000 /* FloPotatoes.IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF13EF000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3A3DF4E00000000000000000 /* Build configuration list for PBXProject "FloPotatoes.IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE675E000000000000000000;
+			productRefGroup = 35FB41840000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A464CA0000000000000000 /* FloPotatoes.IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341949A70000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375EE3170000000000000000 /* Images.xcassets in Resources */,
+				C924BAF00000000000000000 /* Default-568h@2x.png in Resources */,
+				3ABD0C990000000000000000 /* chevron_left@2x.png in Resources */,
+				28E7CD830000000000000000 /* ic_launcher@2x.png in Resources */,
+				53D4F5700000000000000000 /* icon_critics_fresh@2x.jpg in Resources */,
+				2A93F6EA0000000000000000 /* icon_error@2x.png in Resources */,
+				18BEB7D40000000000000000 /* icon_fresh@2x.png in Resources */,
+				6E978BE00000000000000000 /* icon_loading@2x.png in Resources */,
+				351439A80000000000000000 /* icon_pop_corn@2x.png in Resources */,
+				3F947C660000000000000000 /* icon_rotten@2x.png in Resources */,
+				2DBF3D500000000000000000 /* app_icon@2x.png in Resources */,
+				1BE9FE3A0000000000000000 /* Info.plist in Resources */,
+				29FB4D960000000000000000 /* Entitlements.plist in Resources */,
+				380C9CF20000000000000000 /* MainStoryboard.storyboard in Resources */,
+				26375DDC0000000000000000 /* DetailsContaint.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EAA1C00000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BF47100000000000000000 /* AppDelegate.h in Sources */,
+				193C79ED0000000000000000 /* AppDelegate.m in Sources */,
+				3200EF230000000000000000 /* MasterViewController.h in Sources */,
+				73457BB00000000000000000 /* MasterViewController.m in Sources */,
+				271AE62D0000000000000000 /* DetailViewController.h in Sources */,
+				319B28EB0000000000000000 /* DetailViewController.m in Sources */,
+				1512C3FB0000000000000000 /* MovieTableCell.h in Sources */,
+				2DD739310000000000000000 /* MovieTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CA8F1F0000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		38F0B9740000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "FloPotatoes.IOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3DF4E00000000000000000 /* Build configuration list for PBXProject "FloPotatoes.IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CA8F1F0000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		11E811C60000000000000000 /* Build configuration list for PBXNativeTarget "FloPotatoes.IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F0B9740000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF13EF000000000000000000 /* Project object */;
+}

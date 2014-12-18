@@ -1,0 +1,4 @@
+/Users/WuzUrDaddy/Desktop/Xamarin Dev/XamTest/FloPotatoes/FloPotatoes.Android/bin/Debug/FloPotatoes.Android.dll
+/Users/WuzUrDaddy/Desktop/Xamarin Dev/XamTest/FloPotatoes/packages/Newtonsoft.Json.6.0.6/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll
+/Users/WuzUrDaddy/Desktop/Xamarin Dev/XamTest/FloPotatoes/Components/xamandroidsupportv4-18-4.19.1.0/lib/android/Xamarin.Android.Support.v4.dll
+/Users/WuzUrDaddy/Desktop/Xamarin Dev/XamTest/FloPotatoes/packages/Xamarin.Insights.1.7.3.98/lib/MonoAndroid10/Xamarin.Insights.dll

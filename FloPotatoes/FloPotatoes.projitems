@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{D345BE66-5579-43B6-8B6B-AC7D6CCF20DB}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FloPotatoes</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Manager\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ApiListAdapter\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ApiListAdapter\MovieList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Movie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ReleaseDates.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Rating.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\People.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Links.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Posters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Manager\PotatoesManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Manager\PictureManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Review.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiListAdapter\ReviewList.cs" />
+  </ItemGroup>
+</Project>
